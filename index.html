@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanuCode Web Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./logo-app.jpg" alt="">HanuCode Web Solutions</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <h1>Empowering Students with Real-World Experience</h1>
+        <p>Find top internships and gain industry experience</p>
+        <button onclick="exploreInternships()">Explore Internships</button>
+    </header>
+
+    <section id="internships" class="section">
+        <h2>Available Internships</h2>
+        <div class="internship-list">
+            <div class="internship-card">
+                <h3>Java Developer Internship</h3>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="internship-card">
+                <h3>Data Science Internship</h3>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="internship-card">
+                <h3>UI/UX Design Internship</h3>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="internship-card">
+                <h3>Web Development Internship</h3>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="internship-card">
+                <h3>AI/ML Internship</h3>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="internship-card">
+                <h3>Python Internship</h3>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+            <div class="internship-card">
+                <h3>Data Analytics Internship</h3>
+                <button class="apply-btn">Apply Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="dashboard" class="section">
+        <h2>Student Dashboard</h2>
+        <p>Manage your profile, track applications, and build your resume.</p>
+        <button class="apply-btn">Logi In Now</button>
+    </section>
+
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
