@@ -136,3 +136,15 @@ form button:hover {
     background: #0056b3;
     transform: scale(1.05);
 }
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
